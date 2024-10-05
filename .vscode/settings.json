@@ -1,0 +1,11 @@
+{
+  "runItOn": {
+    "commands": [
+      {
+        "match": "flake\\.nix",
+        "isShellCommand": false,
+        "cmd": "nixEnvSelector.hitEnv"
+      }
+    ]
+  }
+}
